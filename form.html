@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มลงทะเบียน</title>
+</head>
+<body>
+  <h1 align="center">แบบฟอร์มการลงทะเบียน</h1>  
+  <div>
+      <form id="form1" align="center">
+          <!-- input txt name lassname -->
+          <label for="name">ชื่อ-นามสกุล:</label>
+          <input type="text" id="textname" placeholder="ป้อนชื่อ-นามสกุล" autofocus="autofocus" maxlength="50" required/>
+
+          <!-- input txt name address -->
+          <label for="address">ที่อยู่:</label>
+          <input type="text" id="textaddress" placeholder="ป้อนที่อยู่" maxlength="100" required/>
+
+          <!-- input birthday -->
+          <label for="birthday">วันเกิด:</label>
+          <input type="date" id="birthday" placeholder="เลือกวันเกิด">
+
+          <!-- input sex selaction -->
+          <label for="sex">เลือกเพศ: </label>
+          <select name="sex" id="sex">
+              <option value="ชาย" selected>ชาย</option>
+              <option value="หญิง">หญิง</option>
+              <option value="LGBT">LGBT</option>
+          </select>
+
+          <!-- input age namber -->
+          <label for="age">อายุ:</label>
+          <input type="namber" id="age" maxlength="3" placeholder="ป้อนอายุ">
+
+          <br><br>
+
+          <!-- input checkbox -->
+          <h5>ความสามารถพิเศษ</h5>
+          <br>
+          <input type="checkbox" id="html" type="html" value="html"/> HTML </br>
+          <input type="checkbox" id="php" type="php" value="php"> PHP </br>
+          <input type="checkbox" id="css" type="css" value="css"> CSS </br>
+          
+          <br><br>
+          <button type="submit">บันทึก</button>
+          <button type="button">ยกเลิก</button>
+
+
+
+      </form>
+  </div>
+</body>
+</html>

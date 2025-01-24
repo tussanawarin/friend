@@ -1,0 +1,191 @@
+*{
+    /* การกำหนด font */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* กำหนด link style */
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    transition: calc(0.5);
+}
+
+/* ------------- Menu ------------ */
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: rgb(179, 114, 114);
+    overflow: hidden;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 10px;
+    padding: 14px 16px;
+}
+
+.menu{
+    display: flex;
+    overflow: hidden;
+}
+
+.menu li{
+    float: left;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    margin-left: 10px;
+    padding: 14px 16px;
+}
+
+.menu a:hover{
+    background-color: rgb(247, 156, 156);
+}
+.menu a:active{
+    background-color: rgb(67, 233, 211);
+    text-decoration: none;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* table style */
+.styled-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+    /* ตกแต่งหัวข้อของตาราง */
+    .styled-table th {
+        background-color: thistle; /* สีพื้นหลังของตัวหัวข้อ */
+        color: violet; /* สีของตัวอักษรในหัวข้อ */
+        text-align: left; /* จัดตำแหน่งตัวอักษรให้ชิดซ้าย */
+        padding: 12px 15px; /* เพิ่ม padding ด้านในของหัวข้อ */
+        font-size: 16px; /* ขนาดตัวอักษร */
+    }
+
+    /* ตกแต่งแถวของตาราง */
+    .styled-table td {
+        text-align: center;
+        padding: 12px 18px;
+        border-collapse: collapse;
+        border-collapse: collapse;
+        border-bottom: 1px solid color rgb(38, 228, 187);
+        font-size: 16px;
+    }
+
+    /* เปลี่ยนสีเมื่อวางเม้าส์ */
+    .styled-table tr :hover{
+        background-color: rgb(52, 224, 216);
+    }
+
+    /* เพิ่มเส้นขอบรอบตาราง */
+    .styled-table , .styled-table th , .styled-table td{
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    /* -------- profile -------- */
+    .title {
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+    .pic {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .pich-item {
+        max-width: 1140px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pich-item img {
+        width: 300px;
+        border-radius: 100%;
+        box-shadow: 0 0 10px;
+        align-items: center;
+    }
+    .pich-item p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(34, 34, 34);
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* border: 1px rgb(218, 141, 141) solid; */
+        max-width: 1140px;
+        margin: 0 auto;
+        column-gap: 16px;
+        border-collapse: collapse;
+        column-gap: 14px;
+
+    }
+    .content-item1 {
+        /* border: 1px rgb(0, 0, 0) solid; */
+        display: grid;
+        padding: 12px;
+        background-color: rgb(179, 114, 114);
+        color: rgb(0, 0, 0);
+        box-shadow: 0 0 10px rgb(161, 63, 157);
+        border-radius: 30px;
+        column-gap: 14px;
+        color: rgb(0, 0, 0);
+    }
+    .pic-info img:hover{
+        transform: scale(1.1);
+    }
+    .content-item1 :hover{
+        transform: scale(1.1);
+    }
+    .content-item2 :hover{
+        transform: scale(1.1);
+    }
+    .content-item3 :hover{
+        transform: scale(1.1);
+    }
+    .content-item1:hover{
+        transform: scale(1.1);
+        background-color: rgb(170, 212, 240);
+    }
+    .pic-info p:hover{
+        transform: scale(1.1);
+    }
+    .title h1:hover{
+        transform: scale(1.1);
+    }
+    
+    #img1 {
+    height: 60px; 
+    margin: auto auto;
+    display: block;
+    }
+   
