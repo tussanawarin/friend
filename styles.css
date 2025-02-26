@@ -114,6 +114,7 @@ a{
         justify-content: center;
         padding: 20px;
         text-align: center;
+        font-size: 30px;
     }
     .pic {
         display: flex;
@@ -185,6 +186,113 @@ a{
     
     #img1 {
     height: 60px; 
+    margin: auto auto;
+    display: block;
+    }
+
+
+
+
+
+
+
+/* ส่วนของActivities */
+
+    .F {
+            max-width: 1140px;
+            justify-content: center;
+            text-align: center;
+    }
+    .F img {
+        width: 300px;
+        box-shadow: 0 0 10px;
+        align-items: center;
+
+    }
+    .F img {
+        width: 300px;
+        box-shadow: 0 0 10px;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+    /* ส่วนของEducation */
+    
+    .title {
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+    .pic1 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        float: left;
+    }
+    .pic2 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        float: left;
+    }
+
+    .pic3 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        align-items: l;
+    }
+    .pich-item {
+        max-width: 1140px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pich-item img {
+        width: 300px;
+        border-radius: 100%;
+        box-shadow: 0 0 10px;
+        align-items: center;
+    }
+    .pich-item p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(34, 34, 34);
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* border: 1px rgb(218, 141, 141) solid; */
+        max-width: 1140px;
+        margin: 0 auto;
+        column-gap: 16px;
+        border-collapse: collapse;
+        column-gap: 14px; }
+
+    .content-item2 h1 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .content-item3 {
+        /* border: 1px rgb(0, 0, 0) solid; */
+        display: grid;
+        padding: 12px;
+        background-color: rgb(220, 198, 245);
+        color: rgb(0, 0, 0);
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+        border-radius: 30px;
+        column-gap: 14px;
+        color: rgb(0, 0, 0);
+    }
+    .content-item3:hover{
+        transform: scale(1.1);
+        background-color: rgb(140, 235, 198); }
+
 
 
 
@@ -221,7 +329,3 @@ a{
             /* box-shadow: 0 4px 8px 0; */
             align-items: center;
         }
-    margin: auto auto;
-    display: block;
-    }
-   
