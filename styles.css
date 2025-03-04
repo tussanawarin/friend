@@ -533,4 +533,296 @@ a{
             .content-item5:hover{
                 transform: scale(1.1);
                 background-color: rgb(178, 157, 238); }
+
+
+/* -------- profile -------- */
+    .title {
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .pic {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .pich-item {
+        max-width: 1140px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pich-item img {
+        width: 300px;
+        border-radius: 100%;
+        box-shadow: 0 0 10px;
+        align-items: center;
+    }
+    .pich-item p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(34, 34, 34);
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* border: 1px rgb(218, 141, 141) solid; */
+        max-width: 1140px;
+        margin: 0 auto;
+        column-gap: 16px;
+        border-collapse: collapse;
+        column-gap: 14px;
+
+    }
+    .content-item1 {
+        /* border: 1px rgb(0, 0, 0) solid; */
+        display: grid;
+        padding: 12px;
+        background-color: rgb(179, 114, 114);
+        color: rgb(0, 0, 0);
+        box-shadow: 0 0 10px rgb(161, 63, 157);
+        border-radius: 30px;
+        column-gap: 14px;
+        color: rgb(0, 0, 0);
+    }
+    .pic-info img:hover{
+        transform: scale(1.1);
+    }
+    .content-item1 :hover{
+        transform: scale(1.1);
+    }
+    .content-item2 :hover{
+        transform: scale(1.1);
+    }
+    .content-item3 :hover{
+        transform: scale(1.1);
+    }
+    .content-item1:hover{
+        transform: scale(1.1);
+        background-color: rgb(170, 212, 240);
+    }
+    .pic-info p:hover{
+        transform: scale(1.1);
+    }
+    .title h1:hover{
+        transform: scale(1.1);
+    }
+    
+    #img1 {
+    height: 60px; 
+    margin: auto auto;
+    display: block;
+    }
+
+
+
+
+
+
+
+/* ส่วนของActivities */
+
+    .F {
+            max-width: 1140px;
+            justify-content: center;
+            text-align: center;
+    }
+    .F img {
+        width: 300px;
+        box-shadow: 0 0 10px;
+        align-items: center;
+
+    }
+    .F img {
+        width: 300px;
+        box-shadow: 0 0 10px;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+    /* ส่วนของEducation */
+    
+    .title {
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+    .pic1 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        float: left;
+    }
+    .pic2 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        float: left;
+    }
+
+    .pic3 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        align-items: l;
+    }
+    .pich-item {
+        max-width: 1140px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pich-item img {
+        width: 300px;
+        border-radius: 100%;
+        box-shadow: 0 0 10px;
+        align-items: center;
+    }
+    .pich-item p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(34, 34, 34);
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* border: 1px rgb(218, 141, 141) solid; */
+        max-width: 1140px;
+        margin: 0 auto;
+        column-gap: 16px;
+        border-collapse: collapse;
+        column-gap: 14px; }
+
+    .content-item2 h1 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .content-item3 {
+        /* border: 1px rgb(0, 0, 0) solid; */
+        display: grid;
+        padding: 12px;
+        background-color: rgb(220, 198, 245);
+        color: rgb(0, 0, 0);
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+        border-radius: 30px;
+        column-gap: 14px;
+        color: rgb(0, 0, 0);
+    }
+    .content-item3:hover{
+        transform: scale(1.1);
+        background-color: rgb(140, 235, 198); }
+
+
+
+
+
+
+
+        /* ส่วนของActivitive */
+        .title10{
+            justify-content: center;
+            padding: 2px;
+            text-align: center;
+        }
+        .content10{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            max-width: 1140px;
+            margin: 0 auto;
+            column-gap: 14px;
+        }
+        .pic-info10{
+            border: 1px; rgb(194, 151, 235) solid;
+            padding: 12px;
+            background-color: rgb(36, 34, 36);
+            border-radius: 25px;
+            box-shadow: 0 4px 8px 0 rgb(248, 137, 133);
+            align-items: center;
+            column-gap: 10px;
+            float: left;
+        }
+
+        .pich-item10 img {
+            width: 325px;
+            border-radius: 25px;
+            /* box-shadow: 0 4px 8px 0; */
+            align-items: center;
+        }
+
+
+
+
+
+        /* home */
+        .pic03 {
+            display: grid;
+            justify-content: left;
+            padding: 5px;
+        }
+        /* .pich-item03 {
+            max-width: 1140px;
+            justify-content: left;
+            text-align: center;
+        }
+    
+        .pich-item03 img {
+            width: 200px;
+            border-radius: 100%;
+            box-shadow: 0 0 10px;
+            align-items: center;} */
+
+            .pic-info03{
+                border: 1px; rgb(194, 151, 235) solid;
+                padding: 12px;
+                border-radius: 25px;
+                box-shadow: 0 4px 8px 0 rgb(248, 137, 133);
+                align-items: center;
+                column-gap: 10px;
+                float: none;
+            }
+    
+            .pich-item03 img {
+                width: 325px;
+                border-radius: 25px;
+                box-shadow: 0 4px 8px 0;
+                align-items: center;
+            }
+            .pic04 {
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+                float: left;}
+            .pic-info03 img:hover{
+                transform: scale(1.1);}
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 1.6;
+                background-color: rgb(241, 193, 193);
+                color: rgb(75, 75, 75);
+            }
+
+            /* certifications */
+            .content-item5 {
+                /* border: 1px rgb(0, 0, 0) solid; */
+                display: grid;
+                padding: 12px;
+                background-color: rgb(172, 206, 252);
+                color: rgb(0, 0, 0);
+                box-shadow: 0 0 10px rgb(0, 0, 0);
+                border-radius: 30px;
+                column-gap: 14px;
+                color: rgb(0, 0, 0);
+            }
+            .content-item5:hover{
+                transform: scale(1.1);
+                background-color: rgb(178, 157, 238); }
+        
         
